@@ -67,6 +67,7 @@ td{
 
 tr:hover td{
 	background-color: rgba(255,255,255,.1);
+	cursor: pointer;
 }
 
 
@@ -103,4 +104,14 @@ table i{
 
 table i:hover{
 	opacity: 1;
+}
+
+.btn-primary{
+	border-radius: 7px;
+	background-color: #6a1b9a;
+	color: #FFF;
+}
+
+.btn-primary:hover{
+	cursor: pointer;
 }

@@ -8,7 +8,8 @@
 	<title>ToDom</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/style.css">
+		<link rel="stylesheet" href="assets/css/style.css">
+		
 </head>
 
 <body>
@@ -28,44 +29,12 @@
 	<main>
 		<form id="form">
 			<input type="text" name="tf_2do" id="tf_2do" autocomplete="off">
-			<button type="submit">Salvar</button>
+			<button type="submit" class="btn btn-primary">Salvar</button>
 		</form>
-		<table id="table">
-			<tr class="done">
-				<td>
-					<input type="checkbox">
-				</td>
-				<td>
-					Lavar a louça pela manhã...
-				</td>
-				<td>
-					<i class="material-icons">delete</i>
-				</td>
-            </tr>
-            <tr>
-				<td>
-					<input type="checkbox">
-				</td>
-				<td>
-					Lavar a louça pela manhã...
-				</td>
-				<td>
-					<i class="material-icons">delete</i>
-				</td>
-            </tr>
-            <tr class="done">
-				<td>
-					<input type="checkbox">
-				</td>
-				<td>
-					Lavar a louça pela manhã...
-				</td>
-				<td>
-					<i class="material-icons">delete</i>
-				</td>
-			</tr>
-		</table>
+		<div id="table"></div>
+
 	</main>
+	<script src="assets/js/index.js" type="module"></script>
 </body>
 
 </html>
