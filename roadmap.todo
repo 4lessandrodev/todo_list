@@ -1,40 +1,40 @@
-☐ Criar um arquivo assets/js/index.js
-☐ Criar nesse arquivo um array (tarefas) 
-  Esse array deve conter objetos literais com os campos
+✔ Criar um arquivo assets/js/index.js @done (15/05/2020 15:03:32)
+✔ Criar nesse arquivo um array (tarefas) @done (15/05/2020 15:03:36)
+  Esse array deve conter objetos literais com os campos 
     . id: numérico
     . texto: string
     . prioridade: numerico
     . feito: booleano 
 
-☐ Linkar index.js ao index.html 
-☐ Fazer uma função render(t) 
+✔ Linkar index.js ao index.html @done (15/05/2020 15:37:20)
+✔ Fazer uma função render(t) @done (15/05/2020 15:04:13)
   Essa função deve receber como parâmetro um array
   de tarefas t e exibir na página as tarefas que
   estão no array t
   
-☐ Criar a função create(texto)
+✔ Criar a função create(texto) @done (15/05/2020 15:04:57)
   Essa função deve receber um texto como parâmetro e,
   com base nesse texto, criar um novo objeto tarefa
 
-☐ Adicionar uma tarefa ao array
+✔ Adicionar uma tarefa ao array @done (15/05/2020 15:05:00)
   Fazer com que a submissão do formulário acrescente uma tarefa
   ao array de tarefas e limpe o campo onde se digita o texto
 
-☐ Criar uma função toogle(id)
+✔ Criar uma função toogle(id) @done (15/05/2020 15:35:14)
   Essa função deve receber o id de uma tarefa.
   com base nisso deve alterar o falor do atributo "feito"
   se for true, passar para false e se for false passa a ser true
 
-☐ Marcar tarefa como feita/não feita
+✔ Marcar tarefa como feita/não feita @done (15/05/2020 15:36:16)
   Fazer com que a marcação de um checkbox defina a tarefa como
   feita/não feita
 
-☐ Criar função remove(id)
+✔ Criar função remove(id) @done (15/05/2020 15:36:19)
   Essa função deve remover uma tarefa do array com base no id que ela recebeu
 
-☐ Remover uma tarefa
+✔ Remover uma tarefa @done (15/05/2020 15:36:29)
   Fazer com que quando o botão remover seja clicado ele remova a tarefa da lista
 
-☐ Fazer com que o array de tarefas seja guardado/recuperado no localStorage do navegador
+✔ Fazer com que o array de tarefas seja guardado/recuperado no localStorage do navegador @done (15/05/2020 18:25:37)
 
 ☐ Fazer com que essa aplicação seja um PWA 

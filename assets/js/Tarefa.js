@@ -5,7 +5,6 @@ export class Tarefa{
     this.prioridade = this.verificarPrioridade(texto, prioridade);
     this.feito = feito;
     this.id = this.gerarId(tarefas, id);
-    return this;
   }
 
   //Gerar um id
